@@ -7,3 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 User.create(username: "Jack", password: "password")
 User.create(username: "Jesse", password: "password")
+
+
+Message.create(body: "Hey! Hella virtual messages.", user_id: 1)
+Message.create(body: "Yeah it's actually kind of cool", user_id: 2)
+Message.create(body: "lol the coolest", user_id: 1)
+Message.create(body: "well, idk about the COOLEST", user_id: 2)
